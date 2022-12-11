@@ -1,11 +1,11 @@
 import React from 'react'
-import './style.css'
+import '../style.css'
 
 function Display(props){
     return (
         <div className = 'containerDisplay'>
-            <p className = 'numeros'>{props.numero1} {props.operador} {props.numero2}</p>
-            <p className = 'resultado'>{props.resultado}</p>
+            <p className = 'nomer'>{props.nomer1} {props.operator} {props.nomer2}</p>
+            <p className = 'hasil'>{props.hasil}</p>
         </div>
     )
 }
